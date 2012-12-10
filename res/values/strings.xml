@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Audio and Location Recorder</string>
+    
+    <string name="enterSquareLabel">Please enter a square (one letter and 2 digits) to begin:</string>
+    <string name="enterSquareButtonText">Continue</string>
+    <string name="exitButtonText">Exit app</string>
+    <string name="enterSquareValidationError">The square must consist of one letter and 2 digits</string>
+    
+    <string name="recorderStatusReady">Ready to record</string>
+    <string name="recorderStatusInitialising">Waiting for location fix &#8230;</string>
+    <string name="recorderStatusRecording">Recording</string>
+    
+    <string name="recordButtonStart">Start recording</string>
+    <string name="recordButtonStop">Stop recording</string>
+    
+    <string name="ioExceptionUnknown">Unknown error when attempting to record.</string>
+    <string name="ioExceptionAudioRecorder">Could not initialise audio recording. Check your lead is plugged in correctly.</string>
+    <string name="ioExceptionSD">Cannot find your SD card. Please check it.</string>
+    <string name="ioExceptionWriterAudio">Error writing audio file. Please check your SD card.</string>
+    
+    <string name="cancelButtonText">Cancel</string>
+    <string name="finishButtonText">Finish</string>
+    
+    
+    <string name="areYouSure">Stop recording?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>  
+    
+    <string name="error">ERROR</string>
+    <string name="ok">OK</string>
+    
+    <string name="sdError">Cannot find your SD card. Please check it.</string>
+    <string name="locationWriteError">Couldn\'t open file for writing GPS co-ordinates. Please try again. If trying again doesn\'t work please check your SD card is in place correctly and not full.</string>
+    <string name="audioWriteError">Couldn\'t open file for writing audio recordings. Please try again. If trying again doesn\'t work please check your SD card is in place correctly and not full.</string>
+    <string name="finalizeError">There was an error finalising your audio recording. The file may be corrupt.</string> 
+</resources>
